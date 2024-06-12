@@ -40,9 +40,6 @@
         "build": {
           "builder": "@ngx-env/builder:application",
           "options": {
-            "ngxEnv": {
-              "prefix": "ORG_"
-            },
             "outputPath": "dist/client",
             "index": "src/index.html",
             "browser": "src/main.ts",
